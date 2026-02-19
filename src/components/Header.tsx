@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Zap, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const navLinks = [
   { label: 'Services', href: '#services' },
@@ -31,11 +32,17 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 bg-primary flex items-center justify-center flex-shrink-0 transition-colors group-hover:bg-white">
-            <Zap className="w-5 h-5 text-white group-hover:text-primary transition-colors" />
+          <div className="w-10 h-10 relative flex-shrink-0">
+            <Image
+              src="/images/cropped-Tiger-Electric-Icon.png"
+              alt="Tiger Electrical Services logo"
+              fill
+              className="object-contain"
+              sizes="40px"
+            />
           </div>
           <div className="leading-none">
-            <p className="text-white font-black text-sm tracking-widest uppercase">Tiger Electrical</p>
+            <p className="text-white font-black text-sm tracking-widest uppercase group-hover:text-primary transition-colors">Tiger Electrical</p>
             <p className="text-primary text-[10px] tracking-[0.2em] uppercase font-bold">Services</p>
           </div>
         </a>
