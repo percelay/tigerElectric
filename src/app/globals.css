@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #1A1A1A;
+  --color-surface: #2F2F2F;
+  --color-primary: #FF8C00;
+  --color-text-main: #FFFFFF;
+  --color-text-muted: #A3A3A3;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+}
+
+/* Gallery modal thumbnail scrollbar */
+.thumbnail-strip::-webkit-scrollbar {
+  height: 4px;
+}
+.thumbnail-strip::-webkit-scrollbar-track {
+  background: transparent;
+}
+.thumbnail-strip::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.animate-fade-in-up-delay-1 {
+  animation: fadeInUp 0.8s ease 0.15s both;
+}
+
+.animate-fade-in-up-delay-2 {
+  animation: fadeInUp 0.8s ease 0.3s both;
+}
+
+.animate-fade-in-up-delay-3 {
+  animation: fadeInUp 0.8s ease 0.45s both;
+}

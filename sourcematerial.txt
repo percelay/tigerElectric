@@ -1,0 +1,55 @@
+# CONTENT BLOCK FOR TIGER ELECTRICAL SERVICES
+
+[HERO_HEADLINE] -> Use: "Tiger Electrical Services: YOUR ELECTRICIAN"
+[HERO_SUBTEXT] -> Use: "Locally owned and operated electrical contracting firm serving the greater Tulsa area and Green Country."
+
+[WELCOME_TEXT] -> Use: "Welcome. Tiger Electrical Services is a locally owned and operated electrical contracting firm based in Broken Arrow, Oklahoma and serves all of the greater Tulsa area and Green Country. We specialize in all phases of the electrical industry, and with well-equipped and trained electricians you have no worries about our craftsmanship. We do electrical service work and new construction for some of the largest health care facilities, retirement communities, commercial real estate properties and disaster restoration companies in the state of Oklahoma. Please take some time to view the website and review some of our services offered and pictures of completed projects. Tiger Electrical Services “YOUR ELECTRICIAN”"
+
+[DIFFERENCE_TEXT_1] -> Use: "What Makes Us Different: Our service platform was designed to minimize the gap between you the customer and the actual electrician doing the job. The issue most people have with any electrical service company is miscommunication between the customers request and what the electricians are told they will be doing. This results in electricians showing up to work with the wrong materials, adding more time and cost to you. If you’re in need of any electrical service give us a call we would appreciate the chance to be called 'YOUR ELECTRICIAN'"
+
+[DIFFERENCE_TEXT_2] -> Use: "Design build or remodeling an existing facility is one of the major trends in construction right now. Tiger Electrical Services is second to none in the ability to integrate your needs to a set of plans and complete the electrical project with true craftsmanship and customer satisfaction. Our company takes pride in the fact that we are well trained residential and commercial electricians and are here to help you complete your project no matter how large or small. If our design build or remodel services can help in your home or business electrical project, please contact us we would appreciate the opportunity to be 'YOUR ELECTRICIAN'"
+
+[PROJECTS_FEATURED] -> Use: 
+1. "Tower Components" (Gallery enabled) - "Commercial electrical integration for high-rise telecommunication towers."
+2. "Food Bank of Eastern Oklahoma" (Gallery enabled) - "Comprehensive warehouse lighting and climate-control power routing."
+
+[PROJECTS_LIST] -> Use:
+- Residential Services: "Custom home wiring, panel upgrades, and smart home integrations."
+- Bishop Kelley: "Campus-wide electrical maintenance and stadium lighting."
+- Custom Homes: "Bespoke electrical design for luxury builds."
+- Blue Bell A Taste of Summer: "Commercial equipment wiring and refrigeration power support."
+- Inserv: "Industrial facility power distribution."
+- Incredible Pizza: "Entertainment venue lighting and high-load kitchen electrical."
+- BA Fire Station # 6: "Municipal emergency power systems and secure facility wiring."
+- Prestige Roofing and Remodeling: "Integrated electrical solutions for full-scale remodels."
+- Outdoor Kitchen: "Weatherproof circuitry and ambient landscape lighting."
+- Commercial RTUs: "Rooftop HVAC unit electrical hookups and safety disconnects."
+- Aspen Liquer: "Retail lighting design and point-of-sale network wiring."
+- CJ's Wine and Spirits: "Energy-efficient commercial showroom lighting."
+- Owasso First Baptist: "Sanctuary lighting and AV power infrastructure."
+- Oklahoma Methodist Manor: "Healthcare-compliant residential facility wiring."
+
+[ABOUT_TEXT_1] -> Use: "With well over 20 years of experience in the trade, owners Corey Wooldridge and Kevin Mantegani decided that the best way to serve themselves is by serving others. They started Tiger Electrical Services to build something they would be proud of, something that helps their families, and provides great electrician services to the community of Tulsa. The goal is to supply the electrical services you require with true craftsmanship and attention to the customers needs. There is no residential or commercial project too big or small and with great references to backup the work, take the time to contact us. Tiger Electrical Services appreciates the opportunity to be called 'YOUR ELECTRICIAN'."
+
+[ABOUT_TEXT_2] -> Use: "Tiger Electrical Services wants your overall experience to be professional and to exceed the industry standard. We are not your typical residential and commercial service company. We are licensed, bonded, and insured, so call us today!"
+
+[SERVICES_INTRO] -> Use: "We offer a variety of electrical contractor services for both the commercial and residential client, so whether it is your home or business, we are 'YOUR ELECTRICIAN'"
+
+[SERVICES_LIST] -> Use: 
+- Commercial Electrical Contractor Services
+- Residential/ Home Electrical Service and Repair
+- New Construction
+- Commercial and Residential Remodels
+- Emergency Service
+- Exterior and Interior Lighting
+- Data/Telecom
+- Design Build Services
+- Electrical Service Upgrades
+- Electrical Estimating
+- Electrical Inspections
+
+[INDUSTRIES_SERVED] -> Use: Education, Healthcare, Industrial, Professional, Religious, Retail, Restaurant, Civic.
+
+[SERVICE_AREAS] -> Use: Tulsa, Broken Arrow, Coweta, Bixby, Jenks, Sand Springs, Sapulpa, Owasso, Claremore.
+
+[SOCIAL_LINKS] -> Use: Facebook: https://www.facebook.com/profile.php?id=100067383352976&fref=ts#
