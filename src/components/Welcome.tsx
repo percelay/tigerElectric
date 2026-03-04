@@ -1,7 +1,7 @@
 import { ShieldCheck, Award, MapPin } from 'lucide-react';
 
 const stats = [
-  { value: '20+', label: 'Years Experience' },
+  { value: '30+', label: 'Years Experience' },
   { value: '100+', label: 'Projects Completed' },
   { value: '9', label: 'Service Areas' },
 ];
@@ -80,7 +80,7 @@ export default function Welcome() {
             <div className="bg-primary p-7 mt-2">
               <p className="text-white font-black text-sm tracking-wide uppercase mb-3">Our Story</p>
               <p className="text-white/90 text-sm leading-relaxed">
-                With well over 20 years of experience in the trade, owners <strong>Corey Wooldridge</strong> and <strong>Kevin Mantegani</strong> built Tiger Electrical Services to serve their families, their community, and to deliver true electrical craftsmanship. No project is too big or small.
+                With well over 30 years of experience in the trade, owners <strong>Corey Wooldridge</strong> and <strong>Kevin Mantegani</strong> built Tiger Electrical Services to serve their families, their community, and to deliver true electrical craftsmanship. No project is too big or small.
               </p>
             </div>
           </div>

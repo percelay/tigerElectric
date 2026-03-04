@@ -8,7 +8,6 @@ const serviceTypes = [
   'Residential / Home Electrical Service & Repair',
   'New Construction',
   'Commercial & Residential Remodels',
-  'Emergency Service',
   'Exterior & Interior Lighting',
   'Data / Telecom',
   'Design Build Services',
@@ -34,9 +33,8 @@ const serviceAreas = [
 const whyPoints = [
   'Direct communication — you talk to the electrician',
   'Licensed, bonded, and insured in Oklahoma',
-  'Over 20 years of industry experience',
+  'Over 30 years of industry experience',
   'No project too large or too small',
-  'Emergency service available',
   'Residential and commercial expertise',
 ];
 
@@ -236,8 +234,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-text-muted text-xs mb-0.5">Phone</p>
-                    <a href="tel:+19185550147" className="text-white font-bold text-sm hover:text-primary transition-colors">
-                      (918) 555-0147
+                    <a href="tel:+19187204646" className="text-white font-bold text-sm hover:text-primary transition-colors">
+                      (918) 720-4646
                     </a>
                   </div>
                 </div>
@@ -263,7 +261,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-text-muted text-xs mb-0.5">Location</p>
-                    <p className="text-white font-bold text-sm">Broken Arrow, Oklahoma</p>
+                    <p className="text-white font-bold text-sm">7709 E 42nd Pl, Ste 143</p>
+                    <p className="text-text-muted text-xs">Tulsa, OK 74145</p>
                   </div>
                 </div>
               </div>

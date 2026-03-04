@@ -34,7 +34,7 @@ export default function Header() {
         <a href="#home" className="flex items-center gap-3 group">
           <div className="w-10 h-10 relative flex-shrink-0">
             <Image
-              src="/images/cropped-Tiger-Electric-Icon.png"
+              src="/images/Untitled1.jpg"
               alt="Tiger Electrical Services logo"
               fill
               className="object-contain"

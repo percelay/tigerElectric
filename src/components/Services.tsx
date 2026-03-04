@@ -3,7 +3,6 @@ import {
   Home,
   HardHat,
   Wrench,
-  AlertCircle,
   Lightbulb,
   Network,
   Ruler,
@@ -21,13 +20,6 @@ const services = [
     accent: false,
   },
   {
-    icon: AlertCircle,
-    title: 'Emergency Service',
-    desc: 'When electrical issues can\'t wait, our team responds fast.',
-    span: '',
-    accent: true,
-  },
-  {
     icon: Home,
     title: 'Residential Service & Repair',
     desc: 'Home electrical service, repair, panel upgrades, and smart home integrations.',
@@ -37,7 +29,7 @@ const services = [
   {
     icon: HardHat,
     title: 'New Construction',
-    desc: 'Complete electrical systems for new residential and commercial builds from foundation to finish.',
+    desc: 'Complete electrical systems for new commercial builds from foundation to finish.',
     span: '',
     accent: false,
   },
@@ -58,7 +50,7 @@ const services = [
   {
     icon: Network,
     title: 'Data / Telecom',
-    desc: 'Data cabling, telecom infrastructure, and structured network wiring.',
+    desc: 'Data cabling and telecom infrastructure.',
     span: '',
     accent: false,
   },

@@ -4,17 +4,13 @@ import { useState } from 'react';
 import Image from 'next/image';
 import {
   Home,
-  GraduationCap,
   HardHat,
   Snowflake,
-  Factory,
   UtensilsCrossed,
   ShieldCheck,
-  Wrench,
   Flame,
   Wind,
   Wine,
-  BookOpen,
   Building2,
   ExternalLink,
 } from 'lucide-react';
@@ -71,6 +67,20 @@ const foodBankImages = [
   '/images/cms_upload_foodcharger5_1491524096.jpg',
 ];
 
+const bishopKelleyImages = [
+  '/images/cms_upload_bishopkelley4_1472258496.jpg',
+  '/images/cms_upload_bishopkelley5_1472258453.jpg',
+  '/images/cms_upload_bishopkelley6_1472258573.jpg',
+  '/images/cms_upload_bishopkelley8_1472258275.jpg',
+];
+
+const inservImages = [
+  '/images/cms_upload_inserv_1472260267.jpg',
+  '/images/cms_upload_inserv1_1472260241.jpg',
+  '/images/cms_upload_inserv3_1472260174.jpg',
+  '/images/cms_upload_inserv6_1472260077.jpg',
+];
+
 const featuredProjects = [
   {
     id: 'tower',
@@ -90,6 +100,24 @@ const featuredProjects = [
     imageCount: foodBankImages.length,
     span: '',
   },
+  {
+    id: 'bishopkelley',
+    name: 'Bishop Kelley',
+    description: 'New HD Scoreboard — campus-wide electrical integration and stadium lighting systems.',
+    images: bishopKelleyImages,
+    cover: '/images/cms_upload_bishopkelley8_1472258275.jpg',
+    imageCount: bishopKelleyImages.length,
+    span: '',
+  },
+  {
+    id: 'inserv',
+    name: 'Inserv',
+    description: 'New grounds for all server racks — industrial facility power distribution and rack electrical infrastructure.',
+    images: inservImages,
+    cover: '/images/cms_upload_inserv_1472260267.jpg',
+    imageCount: inservImages.length,
+    span: 'md:col-span-2',
+  },
 ];
 
 const iconProjects = [
@@ -97,11 +125,6 @@ const iconProjects = [
     icon: Home,
     title: 'Residential Services',
     desc: 'Custom home wiring, panel upgrades, and smart home integrations.',
-  },
-  {
-    icon: GraduationCap,
-    title: 'Bishop Kelley',
-    desc: 'Campus-wide electrical maintenance and stadium lighting.',
   },
   {
     icon: HardHat,
@@ -114,11 +137,6 @@ const iconProjects = [
     desc: 'Commercial equipment wiring and refrigeration power support.',
   },
   {
-    icon: Factory,
-    title: 'Inserv',
-    desc: 'Industrial facility power distribution.',
-  },
-  {
     icon: UtensilsCrossed,
     title: 'Incredible Pizza',
     desc: 'Entertainment venue lighting and high-load kitchen electrical.',
@@ -127,11 +145,6 @@ const iconProjects = [
     icon: ShieldCheck,
     title: 'BA Fire Station #6',
     desc: 'Municipal emergency power systems and secure facility wiring.',
-  },
-  {
-    icon: Wrench,
-    title: 'Prestige Roofing & Remodeling',
-    desc: 'Integrated electrical solutions for full-scale remodels.',
   },
   {
     icon: Flame,
@@ -152,11 +165,6 @@ const iconProjects = [
     icon: Wine,
     title: "CJ's Wine and Spirits",
     desc: 'Energy-efficient commercial showroom lighting.',
-  },
-  {
-    icon: BookOpen,
-    title: 'Owasso First Baptist',
-    desc: 'Sanctuary lighting and AV power infrastructure.',
   },
   {
     icon: Building2,

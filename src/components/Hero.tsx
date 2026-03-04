@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background image — flipped horizontally via wrapper */}
       <div className="absolute inset-0 [transform:scaleX(-1)]">
         <Image
-          src="/images/hero.jpeg"
+          src="/images/tigerhero.jpeg"
           alt="Tiger Electrical Services — Professional electrical work"
           fill
           className="object-cover object-center"
